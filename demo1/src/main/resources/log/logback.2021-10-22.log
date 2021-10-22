@@ -1,0 +1,1620 @@
+09:30:33.051 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - Starting Demo1Application using Java 1.8.0_301 on LAPTOP-HJT5Q62F with PID 19956 (D:\ideaIU\WorkSpace\demo1\target\classes started by waflg in D:\ideaIU\WorkSpace\demo1)
+09:30:33.053 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - No active profile set, falling back to default profiles: default
+09:30:33.093 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:30:33.093 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:30:33.810 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8981 (http)
+09:30:33.816 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8981"]
+09:30:33.816 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:30:33.816 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+09:30:33.818 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+09:30:33.818 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+09:30:33.818 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:30:33.820 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+09:30:33.879 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:30:33.879 logback [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 785 ms
+09:30:34.284 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:30:34.291 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8981"]
+09:30:34.301 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8981 (http) with context path ''
+09:30:34.308 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - Started Demo1Application in 1.61 seconds (JVM running for 2.391)
+09:30:59.499 logback [http-nio-8981-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:30:59.499 logback [http-nio-8981-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:30:59.499 logback [http-nio-8981-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+09:30:59.555 logback [http-nio-8981-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:31:00.084 logback [http-nio-8981-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:31:00.089 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:31:00.104 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:31:00.118 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:31:00.122 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+09:31:00.122 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+09:31:00.124 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+09:33:09.927 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:33:09.927 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:33:09.929 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:33:09.929 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+09:33:09.930 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+09:33:09.932 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+09:33:14.218 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:33:14.218 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:33:14.220 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:33:14.220 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+09:33:14.220 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+09:33:14.222 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+09:33:32.746 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:33:32.747 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:33:32.748 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:33:32.748 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+09:33:32.748 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+09:33:32.750 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+09:33:38.254 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:33:38.255 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:33:38.257 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:33:38.257 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+09:33:38.257 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+09:33:38.258 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+09:33:39.279 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:33:39.279 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:33:39.280 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:33:39.281 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+09:33:39.281 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+09:33:39.282 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 2
+09:34:40.702 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:34:40.702 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:34:40.704 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:34:40.704 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+09:34:40.704 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+09:34:40.705 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+09:41:16.791 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:41:16.791 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:41:16.793 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:41:16.793 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+09:41:16.794 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+09:41:16.796 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+09:41:23.395 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:41:23.395 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:41:23.397 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:41:23.397 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+09:41:23.397 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+09:41:23.399 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+09:41:55.194 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:41:55.194 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:41:55.195 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:41:55.196 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+09:41:55.196 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+09:41:55.197 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+09:48:59.661 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:48:59.661 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:48:59.663 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:48:59.663 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+09:48:59.663 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+09:48:59.664 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+09:51:45.342 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:51:45.342 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:51:45.344 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:51:45.344 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+09:51:45.344 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+09:51:45.345 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+09:51:49.561 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:51:49.561 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:51:49.563 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:51:49.563 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+09:51:49.563 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+09:51:49.564 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+09:52:24.766 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+09:52:24.767 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+09:52:24.769 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+09:52:24.769 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+09:52:24.770 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+09:52:24.772 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:01:06.729 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:01:06.729 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:01:06.731 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:01:06.732 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:01:06.732 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:01:06.733 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:01:32.028 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:01:32.028 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:01:32.030 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:01:32.031 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:01:32.031 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:01:32.032 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:03:21.133 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:03:21.133 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:03:21.135 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:03:21.135 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:03:21.136 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:03:21.136 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:05:01.496 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:05:01.497 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:05:01.498 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:05:01.499 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:05:01.499 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:05:01.500 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:05:43.393 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:05:43.393 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:05:43.395 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:05:43.396 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:05:43.396 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:05:43.397 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:07:32.076 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:07:32.076 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:07:32.078 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:07:32.079 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:07:32.079 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:07:32.080 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:09:42.383 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:09:42.383 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:09:42.384 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:09:42.384 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:09:42.385 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:09:42.385 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:09:50.914 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:09:50.914 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:09:50.915 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:09:50.915 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:09:50.916 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:09:50.917 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:12:08.141 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.insertUser - ==>  Preparing: insert into user ( other, name, age, gender ) values ( ?, ?, ?, ? ) 
+10:12:08.142 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.insertUser - ==> Parameters: .。。(String), tom(String), 21(Integer), 男(String)
+10:12:08.144 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.insertUser - <==    Updates: 1
+10:12:18.486 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:12:18.486 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:12:18.488 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:12:18.488 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:12:18.488 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:12:18.489 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:12:26.940 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:12:26.940 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:12:26.941 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:12:26.942 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:12:26.942 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:12:26.944 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:12:40.070 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.insertUser - ==>  Preparing: insert into user ( other, name, age, gender ) values ( ?, ?, ?, ? ) 
+10:12:40.070 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.insertUser - ==> Parameters: 4r(String), dava(String), 22(Integer), 男(String)
+10:12:40.071 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.insertUser - <==    Updates: 1
+10:12:56.645 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:12:56.645 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:12:56.646 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:12:56.647 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:12:56.647 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:12:56.648 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:12:58.154 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:12:58.154 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:12:58.156 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:12:58.156 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:12:58.156 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+10:12:58.157 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 4
+10:13:31.562 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:13:31.563 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:13:31.564 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:13:31.565 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:13:31.565 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:13:31.566 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:13:33.946 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:13:33.946 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:13:33.947 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:13:33.948 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:13:33.948 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:13:33.949 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:13:50.516 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.insertUser - ==>  Preparing: insert into user ( other, name, age, gender ) values ( ?, ?, ?, ? ) 
+10:13:50.516 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:13:50.516 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:13:50.516 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.insertUser - ==> Parameters: y(String), lll(String), 21(Integer), 女(String)
+10:13:50.517 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.insertUser - <==    Updates: 1
+10:13:50.518 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:13:50.518 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:13:50.518 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:13:50.519 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:13:52.051 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:13:52.052 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:13:52.053 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:13:52.054 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:13:52.054 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+10:13:52.055 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:13:54.474 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:13:54.474 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:13:54.476 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:13:54.476 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:13:54.477 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+10:13:54.477 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:13:55.529 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:13:55.529 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:13:55.530 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:13:55.531 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:13:55.531 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:13:55.532 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:14:57.574 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name = ? 
+10:14:57.574 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==> Parameters: aaa(String)
+10:14:57.575 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - <==      Total: 1
+10:14:57.576 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findUsers - ==>  Preparing: select * from user where name = ? LIMIT ? 
+10:14:57.576 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findUsers - ==> Parameters: aaa(String), 5(Integer)
+10:14:57.576 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findUsers - <==      Total: 2
+10:15:02.142 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name = ? 
+10:15:02.142 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==> Parameters: java(String)
+10:15:02.181 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - <==      Total: 1
+10:15:09.803 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name = ? 
+10:15:09.803 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==> Parameters: lll(String)
+10:15:09.804 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - <==      Total: 1
+10:15:09.804 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findUsers - ==>  Preparing: select * from user where name = ? LIMIT ? 
+10:15:09.804 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findUsers - ==> Parameters: lll(String), 5(Integer)
+10:15:09.805 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findUsers - <==      Total: 1
+10:27:06.805 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:27:06.805 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:27:06.807 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:27:06.808 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:27:06.808 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:27:06.809 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:27:10.744 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:27:10.744 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:27:10.745 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:27:10.745 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:27:10.745 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+10:27:10.746 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:27:11.832 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:27:11.832 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:27:11.833 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:27:11.834 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:27:11.834 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+10:27:11.834 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:28:13.521 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:28:13.522 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:28:13.523 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:28:13.524 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:28:13.524 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:28:13.524 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:28:15.979 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:28:15.979 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:28:15.981 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:28:15.981 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:28:15.981 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:28:15.982 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:40:11.216 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:40:11.217 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:40:11.218 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:40:11.219 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:40:11.219 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:40:11.220 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:40:14.230 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:40:14.231 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:40:14.232 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:40:14.233 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:40:14.233 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:40:14.234 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:40:49.188 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:40:49.188 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:40:49.189 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:40:49.190 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:40:49.190 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:40:49.191 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:42:11.147 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:42:11.148 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:42:11.149 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:42:11.149 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:42:11.150 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:42:11.151 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:43:12.199 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:43:12.199 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:43:12.201 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:43:12.201 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:43:12.201 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:43:12.202 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:45:59.495 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:45:59.496 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:45:59.497 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:45:59.497 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:45:59.498 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:45:59.499 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:52:51.080 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:52:51.081 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:52:51.082 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:52:51.082 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:52:51.082 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:52:51.083 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:52:54.364 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:52:54.364 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:52:54.365 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:52:54.365 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:52:54.365 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:52:54.366 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:53:35.219 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:53:35.219 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:53:35.221 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:53:35.221 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:53:35.221 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:53:35.222 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:53:53.407 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:53:53.407 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:53:53.408 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:53:53.409 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:53:53.409 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:53:53.409 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:54:00.594 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:54:00.594 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:54:00.596 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:54:00.596 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:54:00.596 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+10:54:00.597 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:54:01.081 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:54:01.082 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:54:01.083 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:54:01.083 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:54:01.083 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+10:54:01.084 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:54:06.906 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:54:06.906 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:54:06.908 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:54:06.908 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:54:06.908 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+10:54:06.909 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:54:06.947 logback [http-nio-8981-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+10:54:55.444 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:54:55.444 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:54:55.446 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:54:55.446 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:54:55.446 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:54:55.446 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:54:57.933 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:54:57.933 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:54:57.935 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:54:57.935 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:54:57.935 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:54:57.936 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:55:00.368 logback [http-nio-8981-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+10:55:00.369 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:55:00.369 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:55:00.371 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:55:00.371 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:55:00.371 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:55:00.372 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:55:39.033 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:55:39.033 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:55:39.035 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:55:39.035 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:55:39.035 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:55:39.036 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:55:45.383 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:55:45.383 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:55:45.385 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:55:45.385 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:55:45.385 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:55:45.386 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:55:47.722 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:55:47.722 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:55:47.723 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:55:47.723 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:55:47.723 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:55:47.724 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:56:46.745 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:56:46.745 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:56:46.747 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:56:46.747 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:56:46.747 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:56:46.747 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:56:49.313 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:56:49.313 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:56:49.314 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:56:49.314 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:56:49.314 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:56:49.315 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:57:04.970 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:57:04.970 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:57:04.971 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:57:04.972 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:57:04.972 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:57:04.972 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:57:54.787 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:57:54.787 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:57:54.789 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:57:54.789 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:57:54.789 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:57:54.790 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:57:56.388 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:57:56.388 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:57:56.389 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:57:56.389 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:57:56.390 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:57:56.390 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:58:10.527 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:58:10.527 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:58:10.528 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:58:10.528 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:58:10.528 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:58:10.529 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:58:15.253 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:58:15.253 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:58:15.254 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:58:15.254 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:58:15.255 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:58:15.255 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:58:31.060 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:58:31.061 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:58:31.062 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:58:31.062 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:58:31.062 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:58:31.063 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:58:58.578 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:58:58.578 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:58:58.580 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:58:58.580 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:58:58.580 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:58:58.581 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:59:03.845 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:59:03.845 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:59:03.846 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:59:03.846 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:59:03.847 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:59:03.847 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:59:24.346 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:59:24.346 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:59:24.347 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:59:24.347 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:59:24.347 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:59:24.348 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:59:26.771 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:59:26.771 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:59:26.772 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:59:26.772 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:59:26.772 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+10:59:26.773 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:59:30.228 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:59:30.228 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.deleteUser - ==>  Preparing: delete from user where id=? 
+10:59:30.228 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:59:30.228 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.deleteUser - ==> Parameters: 16(Integer)
+10:59:30.229 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.deleteUser - <==    Updates: 1
+10:59:30.230 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:59:30.230 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:59:30.230 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+10:59:30.230 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:59:32.769 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:59:32.770 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:59:32.771 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:59:32.771 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+10:59:32.772 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+10:59:32.772 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:59:33.977 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:59:33.977 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:59:33.978 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:59:33.979 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:59:33.979 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+10:59:33.979 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 4
+10:59:52.654 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.deleteUser - ==>  Preparing: delete from user where id=? 
+10:59:52.654 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:59:52.654 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.deleteUser - ==> Parameters: 15(Integer)
+10:59:52.654 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:59:52.656 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.deleteUser - <==    Updates: 1
+10:59:52.664 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:59:52.664 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:59:52.664 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+10:59:52.665 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 4
+10:59:58.642 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:59:58.642 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:59:58.643 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:59:58.643 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:59:58.643 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+10:59:58.644 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+10:59:59.458 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+10:59:59.458 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+10:59:59.460 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+10:59:59.460 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+10:59:59.460 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+10:59:59.460 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 3
+11:00:22.659 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:00:22.659 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:00:22.659 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.insertUser - ==>  Preparing: insert into user ( other, name, age, gender ) values ( ?, ?, ?, ? ) 
+11:00:22.660 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.insertUser - ==> Parameters: 222323(String), dfvf(String), 21(Integer), 男(String)
+11:00:22.660 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:00:22.660 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:00:22.660 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+11:00:22.661 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.insertUser - <==    Updates: 1
+11:00:22.661 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 3
+11:00:24.299 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:00:24.299 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:00:24.300 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:00:24.300 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:00:24.300 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:00:24.301 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:00:25.210 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:00:25.210 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:00:25.211 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:00:25.212 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:00:25.212 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+11:00:25.212 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 4
+11:12:53.496 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:12:53.496 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:12:53.498 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:12:53.498 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:12:53.498 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:12:53.499 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:12:57.116 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:12:57.116 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:12:57.117 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:12:57.118 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:12:57.118 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:12:57.119 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:13:34.381 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:13:34.381 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:13:34.382 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:13:34.382 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:13:34.383 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:13:34.383 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:13:36.796 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:13:36.797 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:13:36.798 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:13:36.798 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:13:36.798 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:13:36.799 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:13:37.954 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:13:37.954 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:13:37.954 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:13:37.954 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:13:37.954 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:13:37.955 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:13:44.218 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:13:44.218 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:13:44.220 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:13:44.220 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:13:44.220 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:13:44.221 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:13:44.222 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET ?, ?, ?, ? where id = ? 
+11:13:44.222 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: 无(String), ttt(String), 21(Integer), 女(String), 10(Integer)
+11:13:44.394 logback [http-nio-8981-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''无',
+            
+            
+                'ttt',
+            
+           ' at line 2
+### The error may exist in file [D:\ideaIU\WorkSpace\demo1\target\classes\mapper\UserMapper.xml]
+### The error may involve com.demo1.demo1.mapper.UserMapper.updateUser-Inline
+### The error occurred while setting parameters
+### SQL: update user          SET ?,                                           ?,                                           ?,                                            ?          where id = ?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''无',
+            
+            
+                'ttt',
+            
+           ' at line 2
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''无',
+            
+            
+                'ttt',
+            
+           ' at line 2] with root cause
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''无',
+            
+            
+                'ttt',
+            
+           ' at line 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy80.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy78.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy65.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:287)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:144)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy66.updateUser(Unknown Source)
+	at com.demo1.demo1.service.Impl.UserServiceImpl.updateUser(UserServiceImpl.java:45)
+	at com.demo1.demo1.service.Impl.UserServiceImpl$$FastClassBySpringCGLIB$$3d424bc2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.demo1.demo1.service.Impl.UserServiceImpl$$EnhancerBySpringCGLIB$$9646415a.updateUser(<generated>)
+	at com.demo1.demo1.controller.UserController.updateUser(UserController.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+11:14:21.981 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET ?, ?, ?, ? where id = ? 
+11:14:21.981 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: 无(String), ttt(String), 21(Integer), 女(String), 10(Integer)
+11:14:21.983 logback [http-nio-8981-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''无',
+            
+            
+                'ttt',
+            
+           ' at line 2
+### The error may exist in file [D:\ideaIU\WorkSpace\demo1\target\classes\mapper\UserMapper.xml]
+### The error may involve com.demo1.demo1.mapper.UserMapper.updateUser-Inline
+### The error occurred while setting parameters
+### SQL: update user          SET ?,                                           ?,                                           ?,                                            ?          where id = ?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''无',
+            
+            
+                'ttt',
+            
+           ' at line 2
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''无',
+            
+            
+                'ttt',
+            
+           ' at line 2] with root cause
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''无',
+            
+            
+                'ttt',
+            
+           ' at line 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy80.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy78.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy65.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:287)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:144)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy66.updateUser(Unknown Source)
+	at com.demo1.demo1.service.Impl.UserServiceImpl.updateUser(UserServiceImpl.java:45)
+	at com.demo1.demo1.service.Impl.UserServiceImpl$$FastClassBySpringCGLIB$$3d424bc2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.demo1.demo1.service.Impl.UserServiceImpl$$EnhancerBySpringCGLIB$$9646415a.updateUser(<generated>)
+	at com.demo1.demo1.controller.UserController.updateUser(UserController.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+11:15:28.220 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET ?, ?, ?, ? where id = ? 
+11:15:28.220 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: ,(String), ttt(String), 21(Integer), 女(String), 10(Integer)
+11:15:28.221 logback [http-nio-8981-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '',',
+            
+            
+                'ttt',
+            
+            
+' at line 2
+### The error may exist in file [D:\ideaIU\WorkSpace\demo1\target\classes\mapper\UserMapper.xml]
+### The error may involve com.demo1.demo1.mapper.UserMapper.updateUser-Inline
+### The error occurred while setting parameters
+### SQL: update user          SET ?,                                           ?,                                           ?,                                            ?          where id = ?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '',',
+            
+            
+                'ttt',
+            
+            
+' at line 2
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '',',
+            
+            
+                'ttt',
+            
+            
+' at line 2] with root cause
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '',',
+            
+            
+                'ttt',
+            
+            
+' at line 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy80.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy78.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy65.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:287)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:144)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy66.updateUser(Unknown Source)
+	at com.demo1.demo1.service.Impl.UserServiceImpl.updateUser(UserServiceImpl.java:45)
+	at com.demo1.demo1.service.Impl.UserServiceImpl$$FastClassBySpringCGLIB$$3d424bc2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.demo1.demo1.service.Impl.UserServiceImpl$$EnhancerBySpringCGLIB$$9646415a.updateUser(<generated>)
+	at com.demo1.demo1.controller.UserController.updateUser(UserController.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+11:19:26.358 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - Starting Demo1Application using Java 1.8.0_301 on LAPTOP-HJT5Q62F with PID 12404 (D:\ideaIU\WorkSpace\demo1\target\classes started by waflg in D:\ideaIU\WorkSpace\demo1)
+11:19:26.360 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - No active profile set, falling back to default profiles: default
+11:19:26.399 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:19:26.399 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:19:27.178 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8981 (http)
+11:19:27.183 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8981"]
+11:19:27.184 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:19:27.184 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+11:19:27.185 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+11:19:27.185 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11:19:27.186 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:19:27.188 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+11:19:27.250 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:19:27.250 logback [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 851 ms
+11:19:27.671 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:19:27.678 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8981"]
+11:19:27.688 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8981 (http) with context path ''
+11:19:27.696 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - Started Demo1Application in 1.696 seconds (JVM running for 2.527)
+11:19:32.015 logback [http-nio-8981-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:19:32.015 logback [http-nio-8981-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:19:32.016 logback [http-nio-8981-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:19:32.083 logback [http-nio-8981-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:19:32.617 logback [http-nio-8981-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:19:32.650 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+11:19:32.667 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: ,(String), ttt(String), 21(Integer), 女(String), 10(Integer)
+11:19:32.721 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+11:19:49.876 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:19:49.876 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:19:49.891 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:19:49.895 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:19:49.896 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:19:49.898 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:19:51.333 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:19:51.333 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:19:51.334 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:19:51.335 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:19:51.335 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:19:51.336 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:19:56.540 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET name = ?, age = ?, gender = ? where id = ? 
+11:19:56.541 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: lily(String), 19(Integer), 女(String), 6(Integer)
+11:19:56.542 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:19:56.542 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:19:56.542 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+11:19:56.544 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:19:56.544 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:19:56.544 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:19:56.547 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:19:59.468 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:19:59.468 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:19:59.470 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:19:59.470 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:19:59.470 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:19:59.471 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:19:59.982 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:19:59.983 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:19:59.984 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:19:59.985 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:19:59.985 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:19:59.986 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:20:19.884 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET name = ?, age = ?, gender = ? where id = ? 
+11:20:19.884 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:20:19.884 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:20:19.884 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: lily(String), 19(Integer), 女(String), 6(Integer)
+11:20:19.885 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+11:20:19.885 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:20:19.886 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:20:19.886 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:20:19.888 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:20:23.678 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:20:23.679 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:20:23.681 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:20:23.682 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:20:23.682 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:20:23.684 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:20:24.836 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:20:24.836 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:20:24.838 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:20:24.838 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:20:24.838 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:20:24.841 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:21:02.874 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+11:21:02.874 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: ,(String), lily(String), 21(Integer), 女(String), 6(Integer)
+11:21:02.875 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+11:21:57.934 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:21:57.934 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:21:57.936 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:21:57.936 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:21:57.936 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:21:57.937 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:22:01.946 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:22:01.947 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:22:01.949 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:22:01.949 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:22:01.949 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:22:01.951 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:22:03.524 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:22:03.524 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:22:03.526 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:22:03.526 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:22:03.526 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:22:03.527 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:22:34.577 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:22:34.577 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:22:34.579 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:22:34.579 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:22:34.579 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:22:34.580 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:22:37.230 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:22:37.230 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:22:37.231 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:22:37.232 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:22:37.232 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:22:37.233 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:22:38.796 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:22:38.797 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:22:38.798 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:22:38.798 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:22:38.798 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:22:38.799 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:22:43.748 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+11:22:43.748 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:22:43.748 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:22:43.748 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: ,(String), lily(String), 21(Integer), 女(String), 6(Integer)
+11:22:43.749 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+11:22:43.749 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:22:43.750 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:22:43.750 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:22:43.751 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:24:26.987 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:24:26.988 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:24:26.989 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:24:26.989 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:24:26.990 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:24:26.990 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:24:35.722 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:24:35.722 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+11:24:35.722 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:24:35.723 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: 123(String), aaa(String), 19(Integer), 女(String), 5(Integer)
+11:24:35.724 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+11:24:35.724 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:24:35.724 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:24:35.725 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:24:35.725 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:24:37.968 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:24:37.969 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:24:37.972 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:24:37.972 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:24:37.972 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:24:37.974 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:24:40.411 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:24:40.412 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:24:40.413 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:24:40.413 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:24:40.413 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:24:40.414 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:24:49.132 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:24:49.132 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:24:49.132 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+11:24:49.133 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: ,(String), ttt(String), 15(Integer), 女(String), 10(Integer)
+11:24:49.133 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:24:49.133 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:24:49.133 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:24:49.134 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+11:24:49.134 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:24:51.513 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:24:51.513 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:24:51.514 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:24:51.515 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:24:51.515 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:24:51.516 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:24:52.203 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:24:52.203 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:24:52.204 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:24:52.205 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:24:52.205 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:24:52.205 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:24:56.396 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:24:56.396 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:24:56.396 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+11:24:56.396 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: ,(String), ttt(String), 23(Integer), 女(String), 10(Integer)
+11:24:56.397 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+11:24:56.398 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:24:56.398 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:24:56.398 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:24:56.399 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:24:58.575 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:24:58.575 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:24:58.577 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:24:58.577 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+11:24:58.577 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+11:24:58.578 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+11:25:00.195 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+11:25:00.195 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+11:25:00.196 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+11:25:00.196 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+11:25:00.197 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+11:25:00.197 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:09:48.251 logback [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m15s419ms276µs600ns).
+12:12:24.759 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name = ? 
+12:12:24.759 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==> Parameters: bbb(String)
+12:12:24.759 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - <==      Total: 1
+12:12:24.760 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findUsers - ==>  Preparing: select * from user where name = ? LIMIT ? 
+12:12:24.760 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findUsers - ==> Parameters: bbb(String), 5(Integer)
+12:12:24.761 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findUsers - <==      Total: 1
+12:12:34.496 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+12:12:34.496 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: 233(String), bbb(String), 19(Integer), 女(String), 2(Integer)
+12:12:34.496 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:12:34.496 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:12:34.497 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+12:12:34.499 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:12:34.499 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+12:12:34.499 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+12:12:34.500 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:12:39.073 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:12:39.073 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:12:39.074 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:12:39.074 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+12:12:39.075 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+12:12:39.076 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:12:39.814 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:12:39.814 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:12:39.815 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:12:39.815 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:12:39.816 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:12:39.816 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:12:43.053 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:12:43.053 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:12:43.055 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:12:43.055 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+12:12:43.055 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+12:12:43.056 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:12:43.597 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:12:43.597 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:12:43.598 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:12:43.598 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+12:12:43.598 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+12:12:43.599 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 4
+12:12:50.373 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:12:50.373 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:12:50.373 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+12:12:50.374 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: 232(String), alen(String), 19(Integer), 男(String), 11(Integer)
+12:12:50.374 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:12:50.375 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+12:12:50.375 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+12:12:50.376 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+12:12:50.376 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 4
+12:12:53.066 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:12:53.066 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:12:53.068 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:12:53.068 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:12:53.068 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:12:53.069 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:13:34.216 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name = ? 
+12:13:34.217 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==> Parameters: 1(String)
+12:13:34.217 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - <==      Total: 1
+12:16:58.904 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:16:58.904 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:16:58.906 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:16:58.906 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:16:58.907 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:16:58.908 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:17:56.864 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:17:56.864 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:17:56.866 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:17:56.867 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:17:56.867 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:17:56.868 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:21:42.710 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:21:42.711 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:21:42.713 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:21:42.713 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:21:42.713 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:21:42.714 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:21:42.718 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:21:42.718 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:21:42.719 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:21:42.720 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:21:42.720 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:21:42.720 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:21:44.640 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:21:44.640 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:21:44.641 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:21:44.641 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:21:44.641 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:21:44.642 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:21:44.645 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:21:44.646 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:21:44.647 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:21:44.647 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:21:44.647 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:21:44.648 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:21:58.186 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+12:21:58.187 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: 3223(String), ccc(String), 19(Integer), 女(String), 3(Integer)
+12:21:58.187 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+12:21:58.290 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:21:58.291 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:21:58.292 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:21:58.293 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:21:58.293 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:21:58.294 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:22:18.857 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:22:18.858 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:22:18.859 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:22:18.859 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:22:18.859 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:22:18.860 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:22:18.864 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:22:18.864 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:22:18.865 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:22:18.866 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:22:18.866 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:22:18.866 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:22:57.285 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:22:57.285 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:22:57.287 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:22:57.287 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:22:57.287 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:22:57.288 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:22:57.292 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:22:57.292 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:22:57.293 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:22:57.294 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:22:57.294 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:22:57.295 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:24:56.102 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:24:56.102 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:24:56.103 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:24:56.103 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:24:56.103 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:24:56.104 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:24:56.108 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:24:56.108 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:24:56.109 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:24:56.109 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:24:56.109 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:24:56.110 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:25:01.522 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:25:01.522 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:25:01.523 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:25:01.523 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:25:01.524 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:25:01.525 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:25:01.529 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:25:01.529 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:25:01.530 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:25:01.530 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:25:01.530 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:25:01.531 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:25:16.679 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:25:16.679 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:25:16.680 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:25:16.680 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:25:16.680 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:25:16.682 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:25:16.684 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:25:16.684 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:25:16.685 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:25:16.685 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:25:16.686 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:25:16.686 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:26:40.695 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+12:26:40.695 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: 233333(String), bbb(String), 19(Integer), 女(String), 2(Integer)
+12:26:40.696 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+12:26:40.836 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:26:40.836 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:26:40.838 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:26:40.838 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:26:40.838 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:26:40.839 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:28:51.086 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:28:51.086 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:28:51.087 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:28:51.088 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:28:51.088 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:28:51.088 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:28:51.092 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:28:51.092 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:28:51.093 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:28:51.093 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:28:51.094 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:28:51.094 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:28:52.617 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:28:52.617 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:28:52.618 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:28:52.619 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:28:52.619 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:28:52.620 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:28:52.624 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:28:52.624 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:28:52.625 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:28:52.625 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:28:52.625 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:28:52.625 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:29:55.280 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+12:29:55.280 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: a323324(String), ddd(String), 21(Integer), 男(String), 4(Integer)
+12:29:55.281 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+12:29:58.155 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:29:58.156 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:29:58.157 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:29:58.157 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:29:58.157 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:29:58.158 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:30:54.340 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:30:54.340 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:30:54.342 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:30:54.342 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+12:30:54.342 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+12:30:54.343 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:30:55.156 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:30:55.156 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:30:55.158 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:30:55.158 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+12:30:55.158 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+12:30:55.158 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 4
+12:31:12.356 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:31:12.356 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:31:12.357 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:31:12.357 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:31:12.357 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:31:12.358 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:31:12.361 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:31:12.361 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:31:12.362 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:31:12.362 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:31:12.363 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:31:12.363 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:36:16.730 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:36:16.730 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:36:16.731 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:36:16.731 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:36:16.732 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:36:16.732 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:36:19.791 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+12:36:19.791 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: 233333(String), bbb(String), 19(Integer), 女(String), 2(Integer)
+12:36:19.792 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+12:36:19.817 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:36:19.817 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:36:19.819 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:36:19.819 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:36:19.820 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:36:19.820 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:38:52.514 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:38:52.515 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:38:52.516 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:38:52.516 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:38:52.516 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:38:52.517 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:38:52.520 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:38:52.520 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:38:52.521 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:38:52.521 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:38:52.521 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:38:52.522 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:39:36.401 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:39:36.401 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:39:36.402 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:39:36.403 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:39:36.403 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:39:36.403 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:39:42.769 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+12:39:42.769 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: 322356(String), ccc(String), 19(Integer), 女(String), 3(Integer)
+12:39:42.771 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+12:39:42.850 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:39:42.850 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:39:42.851 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:39:42.852 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:39:42.852 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:39:42.853 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:40:15.790 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:40:15.790 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:40:15.792 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:40:15.793 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:40:15.793 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:40:15.794 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:41:41.127 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:41:41.127 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:41:41.128 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:41:41.129 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:41:41.129 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:41:41.129 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:41:48.831 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.updateUser - ==>  Preparing: update user SET other = ?, name = ?, age = ?, gender = ? where id = ? 
+12:41:48.831 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.updateUser - ==> Parameters: 23334(String), bbb(String), 19(Integer), 女(String), 2(Integer)
+12:41:48.834 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.updateUser - <==    Updates: 1
+12:41:49.403 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:41:49.403 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:41:49.404 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:41:49.405 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:41:49.405 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:41:49.406 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:43:07.598 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.insertUser - ==>  Preparing: insert into user ( other, name, age, gender ) values ( ?, ?, ?, ? ) 
+12:43:07.599 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.insertUser - ==> Parameters: 21dq(String), aaa(String), 19(Integer), 男(String)
+12:43:07.599 logback [http-nio-8981-exec-4] DEBUG c.d.d.mapper.UserMapper.insertUser - <==    Updates: 1
+12:43:08.466 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:43:08.466 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:43:08.467 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:43:08.467 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:43:08.467 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:43:08.468 logback [http-nio-8981-exec-5] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:43:10.253 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:43:10.253 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:43:10.254 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:43:10.254 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+12:43:10.254 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+12:43:10.255 logback [http-nio-8981-exec-2] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:43:15.119 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name = ? 
+12:43:15.119 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==> Parameters: aaa(String)
+12:43:15.120 logback [http-nio-8981-exec-9] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - <==      Total: 1
+12:43:15.120 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findUsers - ==>  Preparing: select * from user where name = ? LIMIT ? 
+12:43:15.120 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findUsers - ==> Parameters: aaa(String), 5(Integer)
+12:43:15.120 logback [http-nio-8981-exec-9] DEBUG c.d.d.mapper.UserMapper.findUsers - <==      Total: 3
+12:43:29.546 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.insertUser - ==>  Preparing: insert into user ( other, name, age, gender ) values ( ?, ?, ?, ? ) 
+12:43:29.547 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.insertUser - ==> Parameters: (String), bav(String), 21(Integer), 男(String)
+12:43:29.549 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.insertUser - <==    Updates: 1
+12:43:30.162 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:43:30.162 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:43:30.164 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:43:30.164 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:43:30.164 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:43:30.165 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:43:31.237 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:43:31.237 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:43:31.238 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:43:31.238 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+12:43:31.238 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 15(Integer), 5(Integer)
+12:43:31.239 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 1
+12:43:32.652 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:43:32.652 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:43:32.653 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:43:32.654 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+12:43:32.654 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+12:43:32.654 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:43:39.056 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name = ? 
+12:43:39.057 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==> Parameters: b(String)
+12:43:39.058 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - <==      Total: 1
+12:43:47.456 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name = ? 
+12:43:47.456 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==> Parameters: bav(String)
+12:43:47.457 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - <==      Total: 1
+12:43:47.457 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findUsers - ==>  Preparing: select * from user where name = ? LIMIT ? 
+12:43:47.457 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findUsers - ==> Parameters: bav(String), 5(Integer)
+12:43:47.458 logback [http-nio-8981-exec-3] DEBUG c.d.d.mapper.UserMapper.findUsers - <==      Total: 1
+12:44:00.615 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:44:00.615 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:44:00.616 logback [http-nio-8981-exec-7] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:44:00.617 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:44:00.617 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:44:00.618 logback [http-nio-8981-exec-7] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:44:04.140 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:44:04.140 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:44:04.142 logback [http-nio-8981-exec-6] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:44:04.142 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+12:44:04.142 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer), 5(Integer)
+12:44:04.142 logback [http-nio-8981-exec-6] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:44:04.966 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:44:04.966 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:44:04.967 logback [http-nio-8981-exec-10] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:44:04.967 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+12:44:04.967 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 10(Integer), 5(Integer)
+12:44:04.968 logback [http-nio-8981-exec-10] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:44:06.387 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:44:06.387 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:44:06.389 logback [http-nio-8981-exec-8] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:44:06.389 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ?, ? 
+12:44:06.389 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 15(Integer), 5(Integer)
+12:44:06.390 logback [http-nio-8981-exec-8] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 1
+12:44:07.787 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:44:07.787 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:44:07.788 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:44:07.788 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:44:07.788 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:44:07.788 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:45:09.530 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - Starting Demo1Application using Java 1.8.0_301 on LAPTOP-HJT5Q62F with PID 17208 (D:\ideaIU\WorkSpace\demo1\target\classes started by waflg in D:\ideaIU\WorkSpace\demo1)
+12:45:09.531 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - No active profile set, falling back to default profiles: default
+12:45:09.562 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:45:09.562 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:45:10.270 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8981 (http)
+12:45:10.275 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8981"]
+12:45:10.276 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:45:10.276 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+12:45:10.277 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+12:45:10.277 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+12:45:10.278 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:45:10.280 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+12:45:10.338 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:45:10.338 logback [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 776 ms
+12:45:10.732 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:45:10.738 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8981"]
+12:45:10.747 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8981 (http) with context path ''
+12:45:10.754 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - Started Demo1Application in 1.56 seconds (JVM running for 2.332)
+12:45:14.880 logback [http-nio-8981-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:45:14.880 logback [http-nio-8981-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:45:14.881 logback [http-nio-8981-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+12:45:14.937 logback [http-nio-8981-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:45:15.439 logback [http-nio-8981-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:45:15.444 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:45:15.460 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:45:15.475 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:45:15.479 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:45:15.480 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:45:15.481 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:45:22.117 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name = ? 
+12:45:22.117 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==> Parameters: x(String)
+12:45:22.118 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - <==      Total: 1
+12:46:02.877 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - Starting Demo1Application using Java 1.8.0_301 on LAPTOP-HJT5Q62F with PID 4312 (D:\ideaIU\WorkSpace\demo1\target\classes started by waflg in D:\ideaIU\WorkSpace\demo1)
+12:46:02.879 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - No active profile set, falling back to default profiles: default
+12:46:02.911 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:46:02.911 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:46:03.666 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8981 (http)
+12:46:03.672 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8981"]
+12:46:03.672 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:46:03.672 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+12:46:03.673 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+12:46:03.674 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+12:46:03.674 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:46:03.676 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+12:46:03.736 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:46:03.736 logback [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 824 ms
+12:46:04.145 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:46:04.154 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8981"]
+12:46:04.164 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8981 (http) with context path ''
+12:46:04.171 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - Started Demo1Application in 1.635 seconds (JVM running for 2.426)
+12:46:05.475 logback [http-nio-8981-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:46:05.475 logback [http-nio-8981-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:46:05.476 logback [http-nio-8981-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:46:05.533 logback [http-nio-8981-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:46:06.041 logback [http-nio-8981-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:46:06.046 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:46:06.063 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:46:06.079 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:46:06.083 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:46:06.084 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:46:06.086 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+12:46:08.596 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name = ? 
+12:46:08.596 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==> Parameters:  (String)
+12:46:08.597 logback [http-nio-8981-exec-2] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - <==      Total: 1
+12:46:09.434 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name = ? 
+12:46:09.434 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==> Parameters:  (String)
+12:46:09.435 logback [http-nio-8981-exec-3] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - <==      Total: 1
+12:46:09.672 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name = ? 
+12:46:09.672 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==> Parameters:  (String)
+12:46:09.673 logback [http-nio-8981-exec-4] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - <==      Total: 1
+12:46:15.129 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name = ? 
+12:46:15.129 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - ==> Parameters:  (String)
+12:46:15.130 logback [http-nio-8981-exec-5] DEBUG c.d.d.m.UserMapper.findUsers_COUNT - <==      Total: 1
+12:46:39.975 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - Starting Demo1Application using Java 1.8.0_301 on LAPTOP-HJT5Q62F with PID 9860 (D:\ideaIU\WorkSpace\demo1\target\classes started by waflg in D:\ideaIU\WorkSpace\demo1)
+12:46:39.976 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - No active profile set, falling back to default profiles: default
+12:46:40.010 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:46:40.011 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:46:40.721 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8981 (http)
+12:46:40.727 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8981"]
+12:46:40.727 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:46:40.727 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+12:46:40.729 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+12:46:40.729 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+12:46:40.729 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:46:40.731 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+12:46:40.791 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:46:40.791 logback [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 780 ms
+12:46:41.190 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:46:41.197 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8981"]
+12:46:41.207 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8981 (http) with context path ''
+12:46:41.215 logback [restartedMain] INFO  com.demo1.demo1.Demo1Application - Started Demo1Application in 1.578 seconds (JVM running for 2.339)
+12:46:45.591 logback [http-nio-8981-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:46:45.591 logback [http-nio-8981-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:46:45.592 logback [http-nio-8981-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+12:46:45.648 logback [http-nio-8981-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:46:46.148 logback [http-nio-8981-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:46:46.153 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+12:46:46.167 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - ==> Parameters: 
+12:46:46.181 logback [http-nio-8981-exec-1] DEBUG c.d.d.m.U.findAllUsers_COUNT - <==      Total: 1
+12:46:46.185 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==>  Preparing: select * from user LIMIT ? 
+12:46:46.185 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - ==> Parameters: 5(Integer)
+12:46:46.187 logback [http-nio-8981-exec-1] DEBUG c.d.d.mapper.UserMapper.findAllUsers - <==      Total: 5
+13:10:55.359 logback [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m38s814ms292µs100ns).
